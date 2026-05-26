@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: dark;
+    --font-display: 'Outfit', sans-serif;
+    --font-sans: 'Inter', sans-serif;
+  }
+  
+  body {
+    @apply bg-brand-navy-base text-brand-neutral-white font-sans antialiased overflow-x-hidden;
+    background-image: 
+      radial-gradient(at 0% 0%, rgba(124, 58, 237, 0.1) 0px, transparent 50%),
+      radial-gradient(at 100% 100%, rgba(212, 175, 55, 0.05) 0px, transparent 50%);
+    background-attachment: fixed;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display tracking-wide;
+  }
+
+  /* Custom Scrollbars */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-brand-navy-base;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-brand-navy-light/60 rounded-full hover:bg-brand-navy-light transition-colors;
+  }
+}
+
+@layer components {
+  /* Premium Glassmorphic Card (Section 5) */
+  .glass-card {
+    @apply bg-brand-navy-dark/75 backdrop-blur-md border border-brand-navy-light/40 rounded-2xl shadow-premium transition-all duration-300;
+  }
+  
+  .glass-card-hover {
+    @apply hover:border-brand-gold-base/30 hover:shadow-goldGlow hover:-translate-y-0.5;
+  }
+
+  /* Premium Form Inputs (Section 7) */
+  .glass-input {
+    @apply bg-[#0c1220]/90 border border-brand-navy-light/60 rounded-xl px-4 py-3 text-brand-neutral-white placeholder-brand-neutral-textMuted focus:outline-none focus:ring-2 focus:ring-brand-purple-base/50 focus:border-brand-purple-base transition-all duration-200 text-sm;
+  }
+
+  /* Premium Buttons Hierarchy (Section 6) */
+  .btn-primary {
+    @apply bg-brand-gold-base text-brand-navy-base font-display font-bold px-6 py-3 rounded-xl shadow-lg hover:bg-brand-gold-hover hover:shadow-goldGlow active:scale-95 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-brand-gold-base/50 text-center;
+  }
+
+  .btn-secondary {
+    @apply bg-transparent border-2 border-brand-purple-base text-brand-purple-light font-display font-bold px-6 py-2.5 rounded-xl hover:bg-brand-purple-base/10 active:scale-95 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-brand-purple-base/30 text-center;
+  }
+  
+  .btn-ghost {
+    @apply bg-transparent text-brand-neutral-textMuted font-medium px-4 py-2 rounded-lg hover:text-brand-neutral-white transition-colors focus:outline-none text-center;
+  }
+
+  /* Screen wrapper for mobile first simulation (Section 4 & 11) */
+  .app-container {
+    @apply min-h-screen max-w-md mx-auto flex flex-col bg-brand-navy-base relative shadow-2xl border-x border-brand-navy-light/20;
+  }
+  
+  /* Circular exam timer indicator */
+  .timer-circle {
+    @apply transition-all duration-1000 ease-linear;
+    stroke-dasharray: 283;
+    stroke-dashoffset: 0;
+    transform: rotate(-90deg);
+    transform-origin: 50% 50%;
+  }
+}
+
+/* Audio Soundwave visualizer bar elements */
+.audio-wave-bar {
+  @apply w-1.5 bg-brand-gold-base rounded-full transition-all duration-75;
+}

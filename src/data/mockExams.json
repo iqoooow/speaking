@@ -1,0 +1,71 @@
+[
+  {
+    "id": "exam_cefr_001",
+    "title": "CEFR Speaking Mock Test - Set A",
+    "description": "Rasmiy CEFR speaking imtihon formatiga to'liq moslashtirilgan 4 qismli mock testi.",
+    "parts": {
+      "part_1_1": {
+        "title": "Part 1.1 - Personal Questions (Shaxsiy savollar)",
+        "instructionsUz": "Sizga ketma-ket 3 ta shaxsiy savol beriladi. Har bir savol uchun 15 soniya tayyorgarlik va 45 soniya gapirish vaqti ajratiladi.",
+        "questions": [
+          {
+            "id": "p1_q1",
+            "text": "What do you enjoy most about your studies or job, and why?",
+            "prepTime": 15,
+            "speakTime": 45
+          },
+          {
+            "id": "p1_q2",
+            "text": "How important is it for people to balance work and free time in modern life?",
+            "prepTime": 15,
+            "speakTime": 45
+          },
+          {
+            "id": "p1_q3",
+            "text": "Where do you see yourself living and working in five years' time?",
+            "prepTime": 15,
+            "speakTime": 45
+          }
+        ]
+      },
+      "part_1_2": {
+        "title": "Part 1.2 - Picture Comparison (Rasmlar solishtirish)",
+        "instructionsUz": "Ushbu ikkita rasmni solishtiring, ulardagi farqlarni va odamlar nima sababdan bu mashg'ulotlarni tanlaganliklarini taxmin qilib gapiring. Tayyorgarlik uchun 60 soniya, gapirish uchun 90 soniya beriladi.",
+        "image1Url": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=600&q=80",
+        "image1Desc": "Students studying together in a library/group.",
+        "image2Url": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=600&q=80",
+        "image2Desc": "A student studying alone on a laptop in a quiet environment.",
+        "prepTime": 60,
+        "speakTime": 90
+      },
+      "part_2": {
+        "title": "Part 2 - Long Speaking (Mavzu taqdimoti)",
+        "instructionsUz": "Berilgan rasm va 3 ta yo'naltiruvchi savol asosida o'z fikringizni to'liq bayon eting. Tayyorgarlik uchun 60 soniya (eslatmalar yozib olishingiz mumkin) va gapirish uchun 120 soniya ajratiladi.",
+        "imageUrl": "https://images.unsplash.com/photo-1618477388954-7852f32655ec?auto=format&fit=crop&w=600&q=80",
+        "topic": "Environmental Issues: Plastic Pollution",
+        "guidingQuestions": [
+          "Why has plastic pollution become a global emergency in recent decades?",
+          "What are the direct consequences of this pollution on wildlife and human health?",
+          "What steps can individuals and governments take to mitigate this threat?"
+        ],
+        "prepTime": 60,
+        "speakTime": 120
+      },
+      "part_3": {
+        "title": "Part 3 - Debate (Munozara)",
+        "instructionsUz": "Berilgan tezis yuzasidan munozara qiling. Unda qo'llab-quvvatlovchi (FOR) va qarshi bo'lgan (AGAINST) nuqtai nazarlarni ochib berishingiz kerak. Tayyorgarlik uchun 90 soniya, gapirish uchun 120 soniya beriladi.",
+        "statement": "Online learning will completely replace traditional schools and universities in the future.",
+        "pointsFor": [
+          "Ultimate flexibility, self-paced learning, and study from anywhere.",
+          "Access to global top-tier educators and cost-efficiency."
+        ],
+        "pointsAgainst": [
+          "Lack of physical social interactions and peer communication.",
+          "Practical fields (medicine, engineering) require hands-on physical labs."
+        ],
+        "prepTime": 90,
+        "speakTime": 120
+      }
+    }
+  }
+]

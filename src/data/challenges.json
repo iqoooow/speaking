@@ -1,0 +1,170 @@
+[
+  {
+    "id": "challenge_001",
+    "topicUz": "Sayohat va Turizm",
+    "topicEn": "Travel & Tourism",
+    "difficulty": "B2",
+    "question": "What are the advantages of traveling alone compared to traveling in a group?",
+    "questionUz": "Guruh bo'lib sayohat qilishga qaraganda yolg'iz sayohat qilishning qanday afzalliklari bor?",
+    "skeleton": [
+      {
+        "stage": "Introduction",
+        "tipUz": "Savolni o'z so'zlaringiz bilan o'zgartirib ayting va o'z tanlovingizni bildiring.",
+        "tipEn": "Paraphrase the prompt and state your preference.",
+        "template": "Well, in my view, embarking on a solo journey offers a unique set of benefits, particularly..."
+      },
+      {
+        "stage": "First Advantage (Independence)",
+        "tipUz": "Mutlaq erkinlik va rejalashtirish masalasini ochib bering.",
+        "tipEn": "Elaborate on absolute freedom and scheduling autonomy.",
+        "template": "First and foremost, the primary advantage is absolute autonomy. For instance, when you are alone, you can..."
+      },
+      {
+        "stage": "Contrast / Second Advantage",
+        "tipUz": "Guruh cheklovlari bilan solishtiring yoki shaxsiy o'sish haqida gapiring.",
+        "tipEn": "Contrast with group limitations or mention character building.",
+        "template": "On the flip side, group tours often restrict your freedom, whereas solo travel forces you to..."
+      },
+      {
+        "stage": "Conclusion",
+        "tipUz": "Asosiy fikringizni bitta xulosa gapi bilan yakunlang.",
+        "tipEn": "Summarize your stance in a concluding sentence.",
+        "template": "All in all, while group travel provides companionship, traveling solo is far more rewarding because..."
+      }
+    ],
+    "phraseBank": [
+      {
+        "phrase": "First and foremost",
+        "translation": "Birinchi va eng asosiysi",
+        "category": "Ordering"
+      },
+      {
+        "phrase": "On the flip side",
+        "translation": "Boshqa tomondan / Teskari tomondan",
+        "category": "Contrasting"
+      },
+      {
+        "phrase": "Absolute autonomy",
+        "translation": "Mutlaq erkinlik (avtonomiya)",
+        "category": "Vocabulary"
+      },
+      {
+        "phrase": "All in all",
+        "translation": "Xulosa qilib aytganda",
+        "category": "Concluding"
+      }
+    ]
+  },
+  {
+    "id": "challenge_002",
+    "topicUz": "Ta'lim va Kelajak",
+    "topicEn": "Education & Career",
+    "difficulty": "B2",
+    "question": "Do you agree that universities should focus more on practical skills than theory?",
+    "questionUz": "Universitetlar nazariyadan ko'ra ko'proq amaliy ko'nikmalarga e'tibor qaratishi kerak degan fikrga qo'shilasizmi?",
+    "skeleton": [
+      {
+        "stage": "Introduction",
+        "tipUz": "Mavzuga nisbatan o'z munosabatingizni bildiring (rozi yoki qarshi).",
+        "tipEn": "State your agreement or disagreement clearly.",
+        "template": "From my perspective, there is no denying that shift towards hands-on experience is vital, since..."
+      },
+      {
+        "stage": "Core Argument (Employability)",
+        "tipUz": "Nima uchun amaliyot ish topishda muhimligini tushuntiring.",
+        "tipEn": "Explain why practical training directly aids employment.",
+        "template": "To illustrate, employers nowadays search for job-ready graduates who can instantly handle..."
+      },
+      {
+        "stage": "Counter Balance (Role of Theory)",
+        "tipUz": "Nazariyaning ham ahamiyatini qisqacha ta'kidlab o'ting.",
+        "tipEn": "Briefly acknowledge the academic baseline theory provides.",
+        "template": "Nonetheless, we should not disregard theoretical knowledge, as it serves as the foundation for..."
+      },
+      {
+        "stage": "Conclusion",
+        "tipUz": "Muvozanatli yakun yasang.",
+        "tipEn": "Present a balanced concluding statement.",
+        "template": "To sum up, a golden ratio between academic theory and practical expertise is what makes a student successful..."
+      }
+    ],
+    "phraseBank": [
+      {
+        "phrase": "From my perspective",
+        "translation": "Mening nuqtai nazarimdan",
+        "category": "Opinion"
+      },
+      {
+        "phrase": "To illustrate",
+        "translation": "Misol keltiradigan bo'lsak",
+        "category": "Examples"
+      },
+      {
+        "phrase": "Nonetheless",
+        "translation": "Shunday bo'lsa-da / Shunga qaramay",
+        "category": "Contrasting"
+      },
+      {
+        "phrase": "To sum up",
+        "translation": "Xulosa qilganda",
+        "category": "Concluding"
+      }
+    ]
+  },
+  {
+    "id": "challenge_003",
+    "topicUz": "Texnologiya va Jamiyat",
+    "topicEn": "Technology & Society",
+    "difficulty": "C1",
+    "question": "To what extent has social media altered human relationships in modern society?",
+    "questionUz": "Ijtimoiy tarmoqlar zamonaviy jamiyatda insoniy munosabatlarni qay darajada o'zgartirdi?",
+    "skeleton": [
+      {
+        "stage": "Introduction",
+        "tipUz": "Ijtimoiy tarmoqlarning hayotimizdagi o'rnini baholang va asosiy fikrni bering.",
+        "tipEn": "Evaluate the profound impact of social networks and state your core thesis.",
+        "template": "It is widely acknowledged that social networking platforms have fundamentally reshaped how we interact, leading to..."
+      },
+      {
+        "stage": "Positive Aspect (Global Connection)",
+        "tipUz": "Uzoqdagi aloqalar va yaqinlikni saqlab qolish haqida gapiring.",
+        "tipEn": "Talk about maintaining long-distance connections.",
+        "template": "On the one hand, they bridge geographical divides, allowing us to maintain close contact with..."
+      },
+      {
+        "stage": "Negative Aspect (Superficial Interaction)",
+        "tipUz": "Yuzaki munosabatlar va haqiqiy muloqotning kamayishini yoriting.",
+        "tipEn": "Highlight shallow interactions and the decrease in face-to-face quality.",
+        "template": "On the other hand, it is arguable that these connections are somewhat superficial, as they substitute genuine relationships with..."
+      },
+      {
+        "stage": "Synthesis / Conclusion",
+        "tipUz": "Yakuniy xulosada muvozanatni ko'rsating.",
+        "tipEn": "Deliver a sophisticated synthesized conclusion.",
+        "template": "On balance, while social platforms offer unprecedented connectivity, they cannot replace the intimacy of..."
+      }
+    ],
+    "phraseBank": [
+      {
+        "phrase": "Fundamentally reshaped",
+        "translation": "Tubdan o'zgartirib yubordi",
+        "category": "Vocabulary"
+      },
+      {
+        "phrase": "On the one hand",
+        "translation": "Bir tomondan",
+        "category": "Structuring"
+      },
+      {
+        "phrase": "On the other hand",
+        "translation": "Ikkinchi tomondan",
+        "category": "Structuring"
+      },
+      {
+        "phrase": "On balance",
+        "translation": "Barcha jihatlarni taroziga solganda / Xulosa o'rnida",
+        "category": "Concluding"
+      }
+    ]
+  }
+]
